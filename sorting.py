@@ -48,5 +48,14 @@ ordered_list3 = merge_sort(unordered_list3)
 print(ordered_list1)
 print(ordered_list2)
 print(ordered_list3)
+
+inputed_list = []
+num = int(input("Enter the length of lists: "))
+for i in range(num):
+    item = int(input("Enter number: "))
+    inputed_list.append(item)
+    
+ordered_list = merge_sort(inputed_list)
+print(ordered_list)
         
    
