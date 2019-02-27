@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 22 12:54:42 2019
 
-@author: User
-"""
 
 def merge_sort(my_list):
     
